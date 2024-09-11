@@ -35,7 +35,7 @@ Automate the deletion of files older than 30 days in a specific S3 bucket.
 
 After the bucket was provisioned, uploaded 2 image files into it.
 
-![Alt Text](/images/SA-S3-INITAL.JPG)
+![Alt Text](1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-S3-INITAL.JPG)
 
 ---
 
