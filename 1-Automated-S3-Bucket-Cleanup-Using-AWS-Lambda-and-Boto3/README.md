@@ -59,7 +59,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 - Rest of the configurations were left as default.
 - Clicked on **"Create function"**.
 
-![Alt Text](images/example-image.png)
+
 
 - Clicked on **"Create Triggers"**
     - AWS S3 was selected as the source.
@@ -69,7 +69,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
     - Acknowledged the condition given.
     - Finally clicked on **ADD**.
 
-![Alt Text](images/example-image.png)
+![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Lambda-flow.JPG)
 
 - Made a Git repository called **"Serverless-Architecture"**.
     - Opened Git Bash on local:
@@ -92,17 +92,17 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
     - The code was copied and pasted under the **Code** section of our AWS Lambda function.
 
-![Alt Text](images/example-image.png)
+![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-code.JPG/)
 
 - Clicked on **"Deploy"** at the top.
 - Went to the **Test** section, created a sample Test event, and then clicked on **Test**.
 - Test executed successfully.
 
-![Alt Text](images/example-image.png)
+![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Test-event-success.JPG)
 
 - Checked **Cloudflare logs** and saw that the 2 images got deleted successfully.
 
-![Alt Text](images/example-image.png)
+![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Cloudfare-logs-images-deleted.JPG)
 
 ---
 
