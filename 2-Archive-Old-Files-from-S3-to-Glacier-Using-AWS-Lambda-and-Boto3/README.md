@@ -106,6 +106,8 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 ![Alt Text](/2-Archive-Old-Files-from-S3-to-Glacier-Using-AWS-Lambda-and-Boto3/images/GA-Bucket-class.JPG)
 
 
+- For faster testing executed the code for any file older than more than 5 mins residing in the S3 bucket.
+
 
 ## Testing
 
