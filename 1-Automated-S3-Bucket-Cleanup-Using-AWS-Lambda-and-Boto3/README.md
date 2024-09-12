@@ -104,6 +104,9 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
 ![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Cloudfare-logs-images-deleted.JPG)
 
+- Handled the above error of lambda handeler.
+
+![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-cloudfare-log-images-deleted-again.JPG)
 ---
 
 ### 4. Testing the Lambda function
