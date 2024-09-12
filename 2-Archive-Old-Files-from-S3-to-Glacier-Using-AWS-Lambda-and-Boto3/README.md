@@ -109,17 +109,12 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 - For faster testing executed the code for any file older than more than 5 mins residing in the S3 bucket.
 
 
-## Testing
+## 4. Testing
 
 - You can manually trigger the Lambda function or set up a periodic trigger (e.g., using CloudWatch Events) to run it on a schedule.
 - Check the S3 bucket after running the Lambda function to verify that files older than 1 year have been moved to the Glacier storage class.
 - Review the CloudWatch Logs to ensure that the files were successfully archived.
 
-
-### 4. Testing the Lambda function
-
-- Went to AWS S3 dashboard of the bucket.  
-- The files were no longer present as they were successfully deleted by the AWS Lambda function.
 
 ## 5. Contributing
 
