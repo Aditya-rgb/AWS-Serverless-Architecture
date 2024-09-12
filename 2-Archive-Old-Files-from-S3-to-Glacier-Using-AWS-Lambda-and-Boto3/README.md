@@ -116,4 +116,28 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 - Review the CloudWatch Logs to ensure that the files were successfully archived.
 
 
+### 4. Testing the Lambda function
 
+- Went to AWS S3 dashboard of the bucket.  
+- The files were no longer present as they were successfully deleted by the AWS Lambda function.
+
+## 5. Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with clear messages.
+4. Submit a pull request for review.
+
+Make sure to follow the code style guidelines and include proper documentation for any new features.
+
+
+## 6. Contact
+
+For any queries, feel free to contact me:
+
+- **Email:** adityavakharia@gmail.com
+- **GitHub:** [Aditya-rgb](https://github.com/Aditya-rgb/Serverless-Architecture)
+
+You can also open an issue in the repository for questions or suggestions.
