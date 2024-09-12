@@ -74,7 +74,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 - Made a Git repository called **"Serverless-Architecture"**.
     - Opened Git Bash on local:
       ```bash
-      touch lambda_s3_cleanup.py
+      touch lambda_function.py
       code .
       ```
     - Opened VS Code and wrote a Boto3 Python script:
