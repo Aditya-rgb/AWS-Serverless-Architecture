@@ -49,7 +49,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
 - Navigated to the **Lambda dashboard** and clicked on **"Create function"**.
 - Selected **"Author from Scratch"**.
-- Gave function name as **"s3-bucket-cleanup-aditya"**.
+- Gave function name as **"Aditya-S3-log-cleaner"**.
 - Chose **Python 3.10** as the runtime for the function to ensure compatibility with Boto3 library.
 - The IAM role from the previous step was assigned to the Lambda function, giving it the necessary permissions to interact with S3.
 - Kept **Architecture as "arm64"**.
@@ -87,7 +87,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
       ```
 
     - The code was copied and pasted under the **Code** section of our AWS Lambda function.
-    - 
+      
  ![Alt Text](/3-Implement-a-Log-Cleaner-for-AWS-S3/images/LOG-CODE-COPIED.JPG)
 
 
