@@ -131,22 +131,20 @@ No need to create any Trigger for this function as this case study is to determi
 - After doing this the lambda function took 43 secs to audit all the buckets... :)
 
 ## 4. Testing
-
+- Note : Cloud watch access was not there to perform this
+- - The CloudWatch functionality can be achieved this way.
 - You can manually trigger the Lambda function or set up a periodic trigger (e.g., using CloudWatch Events) to run it on a schedule.
 - Review the CloudWatch Logs to ensure that the files were successfully archived.
 
-- The CloudWatch functionality can be achieved this way.
-- Note : Cloud watch access was not there to perform this
-  
-   - CloudWatch Logs Setup:
+- CloudWatch Logs Setup:
 
-   -CloudWatch is automatically enabled for Lambda functions.
-   - Logs of your Lambda execution (such as bucket names) will be sent to CloudWatch.
-   - You can view these logs by:
-   - Going to CloudWatch.
-   - Clicking on Log groups.
-   - Finding your Lambda function's log group (e.g., /aws/lambda/S3-Audit-Function).
-   - View the log stream to see the names of all buckets audited.
+- CloudWatch is automatically enabled for Lambda functions.
+- Logs of your Lambda execution (such as bucket names) will be sent to CloudWatch.
+- You can view these logs by:
+- Going to CloudWatch.
+- Clicking on Log groups.
+- Finding your Lambda function's log group (e.g., /aws/lambda/S3-Audit-Function).
+- View the log stream to see the names of all buckets audited.
 
 ## 5. Contributing
 
