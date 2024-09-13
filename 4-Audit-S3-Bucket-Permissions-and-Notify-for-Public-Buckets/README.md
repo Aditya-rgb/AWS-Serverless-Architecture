@@ -49,6 +49,9 @@ Create multiple such buckets and set some of them to public state.
 After the role was created, the **AmazonS3FullAccess** policy was attached to it, giving the Lambda function full access to interact with S3 buckets.  
 *(Note: In a real-world scenario, more restrictive permissions would be advisable to follow the principle of least privilege, ensuring tighter security.)*
 
+- Could not attach the AmazonSNSFullAccess policy to the role as there were no IAM roles with 2 policy attached to them, so for this case we would require S3FullAccess and AmazonSNSFullAccess
+- If done properly then this policy will allow your Lambda function to publish messages to SNS if any public buckets detected.
+
 ---
 
 ### 3. Lambda function creation and deployment 
