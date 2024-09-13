@@ -132,7 +132,7 @@ No need to create any Trigger for this function as this case study is to determi
 
 ## 4. Testing
 - Note : Cloud watch access was not there to perform this
-- - The CloudWatch functionality can be achieved this way.
+- The CloudWatch functionality can be achieved this way.
 - You can manually trigger the Lambda function or set up a periodic trigger (e.g., using CloudWatch Events) to run it on a schedule.
 - Review the CloudWatch Logs to ensure that the files were successfully archived.
 
