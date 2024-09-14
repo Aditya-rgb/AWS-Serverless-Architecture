@@ -143,13 +143,13 @@ No need to create any Trigger for this function as this case study is to determi
 
     
 - Pushed the script to Git:
-      ```bash
-      git add .
-      git commit -m "WIP"
-      git push origin main
-      ```
+```bash
+git add .
+git commit -m "WIP"
+git push origin main
+```
 
-    - The code was copied and pasted under the **Code** section of our AWS Lambda function.
+- The code was copied and pasted under the **Code** section of our AWS Lambda function.
       
 ![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-code-setup.JPG)
 
