@@ -165,7 +165,7 @@ No need to create any Trigger for this function as this case study is to determi
 
 ![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-logs-success.JPG)
 
--EC2 status afetr Lambda function execution
+- EC2 status afetr Lambda function execution
 
 ![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-ec2-status-after-lambda.JPG)
 
