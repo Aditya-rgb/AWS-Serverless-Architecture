@@ -64,6 +64,11 @@ After the bucket was provisioned, either upload anything or keep it empty.
 Create multiple such buckets and set some of them to public state.
 
 ---
+![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-start-ec2.JPG)
+---
+![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-stop-ec2.JPG)
+
+---
 
 ### 2. Creation IAM role for our Lambda function
 - In the **IAM dashboard**, a new role specifically for Lambda was created.  
