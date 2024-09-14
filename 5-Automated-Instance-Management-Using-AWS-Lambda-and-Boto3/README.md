@@ -139,10 +139,10 @@ No need to create any Trigger for this function as this case study is to determi
 - **Stopping Instances:**
   ```text
   Stopping instance: i-0123456789abcdef0, Name: MyEC2Server
-
+  ```
 
     
-    - Pushed the script to Git:
+- Pushed the script to Git:
       ```bash
       git add .
       git commit -m "WIP"
@@ -151,7 +151,7 @@ No need to create any Trigger for this function as this case study is to determi
 
     - The code was copied and pasted under the **Code** section of our AWS Lambda function.
       
-![Alt Text](/4-Audit-S3-Bucket-Permissions-and-Notify-for-Public-Buckets/images/per-code.JPG)
+![Alt Text](/5-Automated-Instance-Management-Using-AWS-Lambda-and-Boto3/images/auto-code-setup.JPG)
 
 
 
