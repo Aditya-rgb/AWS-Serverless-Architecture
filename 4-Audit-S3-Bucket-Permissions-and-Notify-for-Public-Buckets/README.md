@@ -133,7 +133,7 @@ No need to create any Trigger for this function as this case study is to determi
 - While executing the lambda code in TEST section, a timeout error was encountered after 3 secs. Went to configuration -> General Configs -> Edit -> Set the Timeout to 1min 1 sec
 - After doing this the lambda function took 43 secs to audit all the buckets... :)
 
-## 4. Testing
+##  Testing
 - Note : Cloud watch access was not there to perform this
 - The CloudWatch functionality can be achieved this way.
 - You can manually trigger the Lambda function or set up a periodic trigger (e.g., using CloudWatch Events) to run it on a schedule.
@@ -149,7 +149,7 @@ No need to create any Trigger for this function as this case study is to determi
 - Finding your Lambda function's log group (e.g., /aws/lambda/S3-Audit-Function).
 - View the log stream to see the names of all buckets audited.
 
-## 5. Contributing
+##  Contributing
 
 We welcome contributions! To contribute:
 
@@ -161,7 +161,7 @@ We welcome contributions! To contribute:
 Make sure to follow the code style guidelines and include proper documentation for any new features.
 
 
-## 6. Contact
+## Contact
 
 For any queries, feel free to contact me:
 
