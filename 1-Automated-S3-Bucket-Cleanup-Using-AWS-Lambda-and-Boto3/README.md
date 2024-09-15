@@ -109,12 +109,12 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 ![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-cloudfare-log-images-deleted-again.JPG)
 ---
 
-### 4. Testing the Lambda function
+## Testing the Lambda function
 
 - Went to AWS S3 dashboard of the bucket.  
 - The files were no longer present as they were successfully deleted by the AWS Lambda function.
 
-### 5. Contributing
+## Contributing
 
 We welcome contributions! To contribute:
 
@@ -126,7 +126,7 @@ We welcome contributions! To contribute:
 Make sure to follow the code style guidelines and include proper documentation for any new features.
 
 
-### 6. Contact
+## Contact
 
 For any queries, feel free to contact me:
 
