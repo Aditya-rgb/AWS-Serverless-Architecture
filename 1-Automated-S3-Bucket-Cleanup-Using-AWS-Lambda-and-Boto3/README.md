@@ -100,7 +100,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
 ![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Test-event-success.JPG)
 
-- Checked **Cloudflare logs** and saw that the 2 images got deleted successfully.
+- Checked **Cloudwatch logs** and saw that the 2 images got deleted successfully.
 
 ![Alt Text](/1-Automated-S3-Bucket-Cleanup-Using-AWS-Lambda-and-Boto3/images/SA-Cloudfare-logs-images-deleted.JPG)
 
@@ -114,7 +114,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 - Went to AWS S3 dashboard of the bucket.  
 - The files were no longer present as they were successfully deleted by the AWS Lambda function.
 
-## 5. Contributing
+### 5. Contributing
 
 We welcome contributions! To contribute:
 
@@ -126,7 +126,7 @@ We welcome contributions! To contribute:
 Make sure to follow the code style guidelines and include proper documentation for any new features.
 
 
-## 6. Contact
+### 6. Contact
 
 For any queries, feel free to contact me:
 
