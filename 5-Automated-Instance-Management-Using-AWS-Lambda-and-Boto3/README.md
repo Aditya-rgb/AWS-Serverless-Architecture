@@ -176,7 +176,7 @@ git push origin main
 
 
 
-## 5. Contributing
+##  Contributing
 
 We welcome contributions! To contribute:
 
@@ -188,7 +188,7 @@ We welcome contributions! To contribute:
 Make sure to follow the code style guidelines and include proper documentation for any new features.
 
 
-## 6. Contact
+## Contact
 
 For any queries, feel free to contact me:
 
