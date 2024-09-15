@@ -96,7 +96,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
 ![Alt Text](/2-Archive-Old-Files-from-S3-to-Glacier-Using-AWS-Lambda-and-Boto3/images/GA-TEST-Success.JPG)
 
-- Checked **Cloudflare logs** and saw that the 4 images's storage class changed to Glacier
+- Checked **Cloudwatch logs** and saw that the 4 images's storage class changed to Glacier
 
 ![Alt Text](/2-Archive-Old-Files-from-S3-to-Glacier-Using-AWS-Lambda-and-Boto3/images/GA-cloudwatch-log.JPG)
 
