@@ -98,7 +98,7 @@ After the role was created, the **AmazonS3FullAccess** policy was attached to it
 
 ![Alt Text](/3-Implement-a-Log-Cleaner-for-AWS-S3/images/LOG-TEST-PASS.JPG)
 
-- Checked **Cloudatch logs** and saw that the 4 images's storage class changed to Glacier
+- Checked **Cloudwatch logs** and saw that the 4 images's storage class changed to Glacier
 
 ![Alt Text](/3-Implement-a-Log-Cleaner-for-AWS-S3/images/LOG-CLOUDFARE-LOGS.JPG)
 
