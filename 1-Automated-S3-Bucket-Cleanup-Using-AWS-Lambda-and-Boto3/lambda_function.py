@@ -1,32 +1,34 @@
 import boto3
 from datetime import datetime, timedelta, timezone
 
-# Initialize the S3 client
+# The S3 client was initialized using Boto3
 s3 = boto3.client('s3')
 
-# Lambda handler function (required for AWS Lambda)
+# The Lambda handler function, required for AWS Lambda, was defined
 def lambda_handler(event, context):
-    # Use your actual bucket name
+    # The actual bucket name was used
     bucket_name = 'aditya-serverless-bucket'
     delete_old_objects(bucket_name)
 
-# Function to list and delete objects older than 2 minutes
+# The function listed and deleted objects older than 2 minutes
 def delete_old_objects(bucket_name):
-    # Get the current time with UTC timezone (aware datetime)
+    # The current time was obtained with UTC timezone (aware datetime)
     cutoff_date = datetime.now(timezone.utc) - timedelta(minutes=2)
     
-    # List objects in the bucket
+    # The objects in the bucket were listed
     response = s3.list_objects_v2(Bucket=bucket_name)
     
     if 'Contents' in response:
         for obj in response['Contents']:
             obj_name = obj['Key']
-            obj_last_modified = obj['LastModified']  # This is an aware datetime
+            obj_last_modified = obj['LastModified']  # This was an aware datetime
             
-            # Check if the object is older than 2 minutes
+            # The function checked if the object was older than 2 minutes
+            # For testing purposes i took 2 minutes, you can tweak the code and make it 30 days too.. :)
             if obj_last_modified < cutoff_date:
-                # Delete the object
+                # The object was deleted
                 s3.delete_object(Bucket=bucket_name, Key=obj_name)
                 print(f"Deleted object: {obj_name}")
     else:
+        # It printed that no objects were found in the bucket
         print(f"No objects found in the bucket {bucket_name}")
